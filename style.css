@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box1{
+    position: relative;
+    width: 80vmin;
+    background-color: #191c37;
+    padding: 20px 40px;
+    border-radius: 9px;
+    box-shadow: 0 25px 40px rgba(0, 0, 0, 0.2);
+}
+.box1:after{
+    content: "";
+    position: absolute;
+    width: 85%;
+    left: 7.5%;
+    height: 120%;
+    bottom: -10%;
+    background-color: #0087ff;
+    z-index: -1;
+    border-radius: 8px;
+}
+.h {
+    text-align: center;
+    font-family: "Roboto Mono", monospace;
+    font-size: 80px;
+    color: #ffffff;}
